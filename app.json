@@ -1,0 +1,11 @@
+{
+  "name": "Discovery-server",
+  "description": "Discovery-server project.",
+  "success_url": "/",
+  "env": {
+    "EUREKA_USER_PASSWORD": {
+      "description": "Password for the admin interface.",
+      "generator": "secret"
+    }
+  }
+}
